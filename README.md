@@ -1,2 +1,29 @@
-# csdl
-Corn Soy Data Layer
+# Corn Soy Data Layer
+
+This repo contains code that walks through the steps to create the Corn-Soy Data Layer (CSDL), a map that classifies corn and soybean in 13 states in the US Midwest from 1999-2018 at 30m resolution. Although the USDA's Cropland Data Layer (CDL) offers crop type maps across the conterminous US from 2008 onward, such maps are missing in many Midwestern states or are uneven in quality before 2008. To fill these data gaps, we used the now-public Landsat archive and cloud computing services to map corn and soybean, the primary crops in the Midwest, back to 1999.
+
+## Dataset
+
+Our dataset can be found on Zenodo at ...
+
+## Code dependencies
+
+* To sample training points: R version ...
+
+* To train our classifier and create the final maps: [Google Earth Engine](https://code.earthengine.google.com/)
+
+* To perform analyses: Python
+
+## Map creation
+
+1. Sample a set of training coordinates. [[R Markdown](TBD)]
+2. Export Landsat harmonic regression features and weather features. [[Google Earth Engine](TBD)]
+3. After feature selection, assemble data into a dataframe for ingestion into GEE. [[Jupyter Notebook](TBD)]
+4. Train random forest classifier in GEE. [[Google Earth Engine](TBD)]
+
+## Map validation and error analysis
+
+1. CSDL versus NASS statistics and CDL labels. [[Jupyter Notebook](TBD)]
+2. Validate CSDL against ARMS crop rotation statistics. [[Jupyter Notebook](TBD)]
+3. Landsat availability over the years. [[Jupyter Notebook](TBD)]
+
