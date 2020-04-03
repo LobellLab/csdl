@@ -24,6 +24,7 @@ Our dataset can be found on Zenodo at ...
 ## Map validation and error analysis
 
 1. CSDL versus NASS statistics and CDL labels. [[Jupyter Notebook](TBD)]
-2. Validate CSDL against ARMS crop rotation statistics. [[Jupyter Notebook](TBD)]
-3. Landsat availability over the years. [[Jupyter Notebook](TBD)]
+2. CSDL time trends versus NASS time trends. [[Jupyter Notebook](TBD)]
+3. Validate CSDL against ARMS crop rotation statistics. [[Jupyter Notebook](TBD)]
+4. Landsat availability over the years. [[Jupyter Notebook](TBD)]
 
