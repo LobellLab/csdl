@@ -18,13 +18,13 @@ Our dataset can be found on Zenodo at ...
 
 1. Sample a set of training coordinates. [[R Markdown file](TBD)]
 2. Export Landsat harmonic regression features and weather features. [[Earth Engine script](TBD)]
-3. After feature selection, assemble data into a dataframe for ingestion into GEE. [[Jupyter Notebook](TBD)]
+3. After feature selection, assemble data into a dataframe for ingestion into GEE. [[Jupyter notebook](TBD)]
 4. Train random forest classifier in GEE. [[Earth Engine script](TBD)]
 
 ## Map validation and error analysis
 
-1. CSDL versus NASS statistics and CDL labels. [[Jupyter Notebook](TBD)]
-2. CSDL time trends versus NASS time trends. [[Jupyter Notebook](TBD)]
-3. Validate CSDL against ARMS crop rotation statistics. [[Jupyter Notebook](TBD)]
-4. Landsat availability over the years. [[Jupyter Notebook](TBD)]
+1. CSDL versus NASS statistics and CDL labels. [[Jupyter notebook](TBD)]
+2. CSDL time trends versus NASS time trends. [[Jupyter notebook](TBD)]
+3. Validate CSDL against ARMS crop rotation statistics. [[Jupyter notebook](TBD)]
+4. Landsat availability over the years. [[Jupyter notebook](TBD)]
 
