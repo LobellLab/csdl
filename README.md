@@ -10,16 +10,16 @@ Our dataset can be found on Zenodo at ...
 
 * To sample training points: R version ...
 
-* To train our classifier and create the final maps: [Google Earth Engine](https://code.earthengine.google.com/)
+* To train our classifier and create the final maps: Google Earth Engine
 
 * To perform analyses: Python
 
 ## Map creation
 
-1. Sample a set of training coordinates. [[R Markdown](TBD)]
-2. Export Landsat harmonic regression features and weather features. [[Google Earth Engine](TBD)]
+1. Sample a set of training coordinates. [[R Markdown file](TBD)]
+2. Export Landsat harmonic regression features and weather features. [[Earth Engine script](TBD)]
 3. After feature selection, assemble data into a dataframe for ingestion into GEE. [[Jupyter Notebook](TBD)]
-4. Train random forest classifier in GEE. [[Google Earth Engine](TBD)]
+4. Train random forest classifier in GEE. [[Earth Engine script](TBD)]
 
 ## Map validation and error analysis
 
