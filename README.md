@@ -23,8 +23,9 @@ Our dataset can be found on Zenodo at ...
 
 ## Map validation and error analysis
 
-1. CSDL versus NASS statistics and CDL labels. [[Jupyter notebook](TBD)]
-2. CSDL time trends versus NASS time trends. [[Jupyter notebook](TBD)]
+1. CSDL versus point-level CDL labels. [[Jupyter notebook](TBD)]
+2. Aggregated CSDL versus county-level NASS statistics. [[Jupyter notebook](TBD)]
+2. County-level CSDL time trends versus NASS time trends. [[Jupyter notebook](TBD)]
 3. Validate CSDL against ARMS crop rotation statistics. [[Jupyter notebook](TBD)]
 4. Landsat availability over the years. [[Jupyter notebook](TBD)]
 
