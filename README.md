@@ -1,6 +1,6 @@
 # Corn Soy Data Layer
 
-This repo contains code that walks through the steps to create the Corn-Soy Data Layer (CSDL), a map that classifies corn and soybean in 13 states in the US Midwest from 1999-2018 at 30m resolution. Although the USDA's Cropland Data Layer (CDL) offers crop type maps across the conterminous US from 2008 onward, such maps are missing in many Midwestern states or are uneven in quality before 2008. To fill these data gaps, we used the now-public Landsat archive and cloud computing services to map corn and soybean, the primary crops in the Midwest, back to 1999.
+This repo contains code that walks through key steps to create and validate the Corn-Soy Data Layer (CSDL), a map that classifies corn and soybean in 13 states in the US Midwest from 1999-2018 at 30m resolution. Although the USDA's Cropland Data Layer (CDL) offers crop type maps across the conterminous US from 2008 onward, such maps are missing in many Midwestern states or are uneven in quality before 2008. To fill these data gaps, we used the now-public Landsat archive and cloud computing services to map corn and soybean, the primary crops in the Midwest, back to 1999.
 
 ## Dataset
 
@@ -23,8 +23,7 @@ Our dataset can be found on Zenodo at ...
 
 ## Map validation and error analysis
 
-1. CSDL versus point-level CDL labels. [[Jupyter notebook](TBD)]
-2. Aggregated CSDL versus county-level NASS statistics. [[Jupyter notebook](TBD)]
+1. Aggregated CSDL versus county-level NASS statistics. [[Jupyter notebook](TBD)]
 2. County-level CSDL time trends versus NASS time trends. [[Jupyter notebook](TBD)]
 3. Validate CSDL against ARMS crop rotation statistics. [[Jupyter notebook](TBD)]
 4. Landsat availability over the years. [[Jupyter notebook](TBD)]
