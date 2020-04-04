@@ -8,7 +8,7 @@ Our dataset can be found on Zenodo at ...
 
 ## Code dependencies
 
-* To sample training points: R version 3.5.1, sf 0.6-3, raster 2.6-7, rgdal 1.3-4
+* To sample training points: R version 3.5.1, dplyr 0.8.0.1, sf 0.6-3, raster 2.6-7, rgdal 1.3-4, salustools 0.1.0, sp 1.3-1
 
 * To train our classifier and create the final maps: Google Earth Engine
 
