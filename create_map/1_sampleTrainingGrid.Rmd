@@ -1,0 +1,185 @@
+---
+title: "Make master points"
+author: "Jill Deines"
+date: "5/13/2019"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    keep_md: true
+---
+
+Goal: Make a shapefile of the randomly generated points for sampling harmonics. Generates a polygon mesh grid to sample within - polygons can be used to batch GEE harmonics sampling
+
+
+```{r knitrOpts, echo=FALSE}
+library(knitr)
+opts_chunk$set(cache=FALSE, fig.path='../figure/00.055_makeShapefile/')
+```
+
+**R Packages Needed**
+
+```{r packages, message=FALSE, echo=TRUE, eval=TRUE}
+library(dplyr)
+library(sf)
+library(rgdal)
+library(raster)
+library(stringr)
+library(salustools)
+
+sessionInfo()
+```
+
+**Directories**
+
+```{r setDirs}
+# input shapefiles
+gisDir  <- '/Users/deinesji/Dropbox/2Stanford/projects/us_croptype_hindcast/data/GIS'
+states <- 'States_continental' #.shp
+counties <- 'CornBeltMax_counties.geojson'
+
+outputFolder <- '/Users/deinesji/Dropbox/2Stanford/projects/us_croptype_hindcast/data/GIS/point_grids'
+outputName <- 'SamplingGrid_v03_maxCornBelt_50km250pts.shp'
+
+polygridName <- 'SamplingGrid_poly_v03_50km.shp'
+```
+
+# Load files 
+
+```{r load}
+states <- readOGR(gisDir, states) 
+statesWanted <- c('ND',"SD", 'NE', "KS", 'MN','IA','MO','WI','IL','IN','MI','OH','KY')
+states13.ll <- states[states$STATE_ABBR %in% statesWanted,]
+plot(states13.ll)
+
+# work in aea, epsg:5070
+aeaProj <- '+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=23 +lon_0=-96 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=1,1,-1,0,0,0,0 +units=m +datum=NAD83 +no_defs'
+states13 <- spTransform(states13.ll, CRS(aeaProj))
+plot(states13)
+```
+
+# Create raster grid
+
+```{r makeGrid}
+corners <- bbox(states13)
+grid <- raster(crs = aeaProj, res = 50000,
+                     extent(corners[1,1],     #xmin
+                            corners[1,2],      #xmax
+                            corners[2,1],       #ymin
+                            corners[2,2]))      #ymax
+grid[] <- 1:ncell(grid)
+plot(grid)
+plot(states13, add=TRUE)
+
+# count active cells
+grid[] <- 1
+gridmask <- mask(grid, states13)
+plot(gridmask)
+plot(states13, add = TRUE)
+ncells <- cellStats(gridmask, stat = 'sum', na.rm=TRUE)
+ncells
+
+ncells * 250
+```
+
+That works!
+
+# Stratified random sample
+makePoints
+```{r makePoints}
+# each cell has unique value for stratification
+gridmask[!is.na(gridmask)] <- 1:ncells
+plot(gridmask)
+
+# increase resolution so multiple cell options within each raster value
+highRes <- disaggregate(gridmask, fact = 100)
+
+# sample 250 points of each cell value
+samp_strat.rand <- sampleStratified(highRes, 250, xy = TRUE, sp=TRUE, na.rm = TRUE)
+
+# add state and county 
+countyPoly <- st_read(paste0(gisDir,'/', counties)) %>%
+  dplyr::select(c('GEOID')) %>%
+  rename(fips5 = GEOID)
+
+# convert to sf
+points_sf <- st_as_sf(samp_strat.rand)
+
+# wgs84
+points_ll <- points_sf %>% 
+  st_transform(4326) %>%
+  rename(gridID = layer) %>%
+  dplyr::select(gridID) %>%
+  mutate(lat = st_coordinates(.)[,2],
+         lon = st_coordinates(.)[,1])
+
+# unique ID
+points_pid <- points_ll %>%
+  mutate(gridNum = str_pad(gridID, 4, pad='0')) %>%
+  group_by(gridID) %>%
+  mutate(gridpt = str_pad(row_number(),3,pad='0') )%>%
+  mutate(uniqueID = paste0(gridNum, '_', gridpt)) %>%
+  dplyr::select(uniqueID, gridID, lat, lon)
+
+# add state and county
+points_meta <- points_pid %>%
+  st_transform(5070) %>%
+  st_join(countyPoly %>% st_transform(5070)) %>%
+  mutate(fips5 = str_pad(fips5, 5, pad = '0')) %>%
+  st_transform(4326)
+
+points_meta2 <- points_meta %>%
+  mutate(FIPS = substr(fips5, 1,2)) %>%
+  left_join(salustools::stateFipsLookup) %>%
+  rename(state = StateAbbrev) %>%
+  dplyr::select(-c(StateName, FIPS))
+  
+# drop points outside of 13 states
+points_inside <- points_meta2 %>%
+  filter(!is.na(fips5))
+nrow(points_inside)
+
+# does that leave any grids with pitifully low points?
+points_inside %>%
+  group_by(gridID) %>%
+  summarize(n = n()) %>%
+  arrange(n)
+
+table(points_inside$state)
+
+# county numbers
+countyCounts <- points_inside %>%
+  group_by(fips5, state) %>%
+  summarize(count = n())
+
+summary(countyCounts$count)
+
+countyCounts %>% arrange(-count)
+countyCounts %>% arrange(count)
+
+# mean county count by state
+countyCounts %>%
+  group_by(state) %>%
+  summarize(meanCount = mean(count))
+
+write_sf(points_inside, paste0(outputFolder, '/', outputName))  
+```
+
+
+
+# and export the grid polygons
+
+```{r polygonizeGrid, eval=FALSE}
+polygons <- rasterToPolygons(gridmask)
+poly_sf <- st_as_sf(polygons) %>%
+  st_transform(4326)
+plot(poly_sf)
+
+polyOut <- poly_sf %>%
+  rename(gridID = layer)
+unique(polyOut$gridID)
+
+write_sf(polyOut, paste0(outputFolder, '/', polygridName))  
+```
+
+
