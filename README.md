@@ -12,19 +12,19 @@ Our dataset can be found on Zenodo at ...
 
 * To train our classifier and create the final maps: Google Earth Engine
 
-* To perform analyses: Python
+* To perform analyses: Python 3.7.3, numpy 1.16.4, pandas 0.24.2, matplotlib 3.1.0, sklearn 0.21.2
 
 ## Map creation
 
-1. Sample a set of training coordinates. [[R Markdown file](TBD)]
-2. Export Landsat harmonic regression features and weather features. [[Earth Engine script](TBD)]
-3. After feature selection, assemble data into a dataframe for ingestion into GEE. [[Jupyter notebook](TBD)]
-4. Train random forest classifier in GEE. [[Earth Engine script](TBD)]
+1. Sample a set of training coordinates. [[R Markdown file](https://github.com/LobellLab/csdl/blob/master/create_map/1_sampleTrainingGrid.Rmd)]
+2. Export Landsat harmonic regression features. [[Earth Engine script](https://code.earthengine.google.com/?scriptPath=users%2Fsherrie%2Fcsdl%3A1_exportLandsatHarmonics)]
+3. After feature selection, assemble data into a dataframe for ingestion into GEE. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/create_map/3_assembleDataFrame.ipynb)]
+4. Train random forest classifier in GEE. [[Earth Engine script](https://code.earthengine.google.com/?scriptPath=users%2Fsherrie%2Fcsdl%3A4_createClassifiedMap)]
 
 ## Map validation and error analysis
 
-1. Aggregated CSDL versus county-level NASS statistics. [[Jupyter notebook](TBD)]
+1. Aggregated CSDL versus county-level NASS statistics. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/validate_map/1_NASSvsCSDLandCDL.ipynb)]
 2. County-level CSDL time trends versus NASS time trends. [[Jupyter notebook](TBD)]
-3. Validate CSDL against ARMS crop rotation statistics. [[Jupyter notebook](TBD)]
-4. Landsat availability over the years. [[Jupyter notebook](TBD)]
+3. Validate CSDL against ARMS crop rotation statistics. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/validate_map/3_cropRotation.ipynb)]
+4. Landsat availability over the years. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/validate_map/4_LandsatAvailability.ipynb)]
 
