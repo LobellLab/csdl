@@ -4,7 +4,7 @@ This repo contains code that walks through key steps to create and validate the 
 
 ## Dataset
 
-Our dataset can be found on Zenodo [here](https://zenodo.org/record/3742743#.XoxGc9NKhTY). DOI: `10.5281/zenodo.3742743`
+Our dataset can be found on Zenodo [here](https://zenodo.org/record/3742743#.XoxGc9NKhTY). [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3742743.svg)](https://doi.org/10.5281/zenodo.3742743)
 
 ## Code dependencies
 
