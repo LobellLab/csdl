@@ -12,7 +12,7 @@ Our dataset can be found on Zenodo at ...
 
 * To train our classifier and create the final maps: Google Earth Engine
 
-* To perform analyses: Python 3.7.3, numpy 1.16.4, pandas 0.24.2, matplotlib 3.1.0, sklearn 0.21.2
+* To perform analyses: Python 3.7.3, numpy 1.16.4, pandas 0.24.2, matplotlib 3.1.0, sklearn 0.21.2,  plotly 4.5.0
 
 ## Map creation
 
@@ -24,7 +24,7 @@ Our dataset can be found on Zenodo at ...
 ## Map validation and error analysis
 
 1. Aggregated CSDL versus county-level NASS statistics. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/validate_map/1_NASSvsCSDLandCDL.ipynb)]
-2. County-level CSDL time trends versus NASS time trends. [[Jupyter notebook](TBD)]
+2. County-level CSDL time trends versus NASS time trends. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/validate_map/2_countyTimeTrends.ipynb)]
 3. Validate CSDL against ARMS crop rotation statistics. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/validate_map/3_cropRotation.ipynb)]
 4. Landsat availability over the years. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/validate_map/4_LandsatAvailability.ipynb)]
 
