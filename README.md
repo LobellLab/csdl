@@ -4,7 +4,9 @@ This repo contains code that walks through key steps to create and validate the 
 
 ## Dataset
 
-Our dataset can be found on Zenodo [here](https://zenodo.org/record/3742743#.XoxGc9NKhTY). [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3742743.svg)](https://doi.org/10.5281/zenodo.3742743)
+Our dataset can be accessed through one of two ways:
+- Google Earth Engine asset [here](https://code.earthengine.google.com/?asset=projects/lobell-lab/us_croptype_hindcast/CSDL)
+- Zenodo repo [here](https://zenodo.org/record/3742743#.XoxGc9NKhTY). [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3742743.svg)](https://doi.org/10.5281/zenodo.3742743)
 
 ## Code dependencies
 
