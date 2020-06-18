@@ -27,7 +27,7 @@ When using the dataset, please cite: [![DOI](https://zenodo.org/badge/DOI/10.528
 
 ## Map validation and error analysis
 
-1. Aggregated CSDL versus county-level NASS statistics. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/validate_map/1_NASSvsCSDLandCDL.ipynb)]
+1. Aggregated CSDL versus county-level NASS statistics. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/validate_map/1_NASSvsCSDLvsCDL.ipynb)]
 2. County-level CSDL time trends versus NASS time trends. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/validate_map/2_countyTimeTrends.ipynb)]
 3. Validate CSDL against ARMS crop rotation statistics. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/validate_map/3_cropRotation.ipynb)]
 4. Landsat availability over the years. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/validate_map/4_LandsatAvailability.ipynb)]
