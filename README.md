@@ -4,7 +4,11 @@ This repo contains code that walks through key steps to create and validate the 
 
 ## Dataset
 
-Our dataset can be found on Zenodo at ...
+Our dataset can be accessed through one of two ways:
+- Google Earth Engine asset [here](https://code.earthengine.google.com/?asset=projects/lobell-lab/us_croptype_hindcast/CSDL)
+- Zenodo repo housing GeoTIFFs [here](https://zenodo.org/record/3742743#.XoxGc9NKhTY)
+
+When using the dataset, please cite: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3742743.svg)](https://doi.org/10.5281/zenodo.3742743)
 
 ## Code dependencies
 
@@ -12,7 +16,7 @@ Our dataset can be found on Zenodo at ...
 
 * To train our classifier and create the final maps: Google Earth Engine
 
-* To perform analyses: Python 3.7.3, numpy 1.16.4, pandas 0.24.2, matplotlib 3.1.0, sklearn 0.21.2
+* To perform analyses: Python 3.7.3, numpy 1.16.4, pandas 0.24.2, matplotlib 3.1.0, sklearn 0.21.2,  plotly 4.5.0
 
 ## Map creation
 
@@ -23,8 +27,8 @@ Our dataset can be found on Zenodo at ...
 
 ## Map validation and error analysis
 
-1. Aggregated CSDL versus county-level NASS statistics. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/validate_map/1_NASSvsCSDLandCDL.ipynb)]
-2. County-level CSDL time trends versus NASS time trends. [[Jupyter notebook](TBD)]
+1. Aggregated CSDL versus county-level NASS statistics. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/validate_map/1_NASSvsCSDLvsCDL.ipynb)]
+2. County-level CSDL time trends versus NASS time trends. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/validate_map/2_countyTimeTrends.ipynb)]
 3. Validate CSDL against ARMS crop rotation statistics. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/validate_map/3_cropRotation.ipynb)]
 4. Landsat availability over the years. [[Jupyter notebook](https://github.com/LobellLab/csdl/blob/master/validate_map/4_LandsatAvailability.ipynb)]
 
