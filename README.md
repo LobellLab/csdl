@@ -8,7 +8,19 @@ Our dataset can be accessed through one of two ways:
 - Google Earth Engine asset [here](https://code.earthengine.google.com/?asset=projects/lobell-lab/us_croptype_hindcast/CSDL)
 - Zenodo repo housing GeoTIFFs [here](https://zenodo.org/record/3742743#.XoxGc9NKhTY)
 
+Map legend:
+- 0 = outside study area
+- 1 = corn
+- 5 = soy
+- 9 = other crop
+- 255 = non-crop (masked by NLCD)
+Values were chosen to be consistent with CDL values when possible.
+
 When using the dataset, please cite: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3742743.svg)](https://doi.org/10.5281/zenodo.3742743)
+
+## Usage Notes
+
+We recommend that users consider metrics such as (1) user's and producer's accuracy with CDL and (2) R2 with NASS statistics across space and time to determine in which states/counties and years CSDL is of high quality. This can be done with the CSV file of user's and producer's accuracies and annual county-level statistics we have included in this repo.
 
 ## Code dependencies
 
