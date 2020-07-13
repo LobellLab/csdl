@@ -1,0 +1,616 @@
+State,State Code,Year,Crop Type,User's Accuracy,Producer's Accuracy
+Iowa,IA,2000,corn,0.764,0.906
+Iowa,IA,2000,soybean,0.881,0.757
+Iowa,IA,2000,other,0.577,0.369
+Iowa,IA,2001,corn,0.805,0.793
+Iowa,IA,2001,soybean,0.781,0.779
+Iowa,IA,2001,other,0.403,0.452
+Iowa,IA,2002,corn,0.823,0.859
+Iowa,IA,2002,soybean,0.82,0.826
+Iowa,IA,2002,other,0.641,0.431
+Iowa,IA,2003,corn,0.694,0.887
+Iowa,IA,2003,soybean,0.828,0.595
+Iowa,IA,2003,other,0.673,0.471
+Iowa,IA,2004,corn,0.85,0.931
+Iowa,IA,2004,soybean,0.922,0.826
+Iowa,IA,2004,other,0.562,0.535
+Iowa,IA,2005,corn,0.827,0.932
+Iowa,IA,2005,soybean,0.922,0.772
+Iowa,IA,2005,other,0.495,0.608
+Iowa,IA,2006,corn,0.788,0.91
+Iowa,IA,2006,soybean,0.874,0.735
+Iowa,IA,2006,other,0.733,0.603
+Iowa,IA,2007,corn,0.95,0.936
+Iowa,IA,2007,soybean,0.899,0.919
+Iowa,IA,2007,other,0.641,0.714
+Iowa,IA,2008,corn,0.961,0.944
+Iowa,IA,2008,soybean,0.924,0.94
+Iowa,IA,2008,other,0.656,0.808
+Iowa,IA,2009,corn,0.917,0.969
+Iowa,IA,2009,soybean,0.95,0.883
+Iowa,IA,2009,other,0.947,0.692
+Iowa,IA,2010,corn,0.923,0.965
+Iowa,IA,2010,soybean,0.96,0.89
+Iowa,IA,2010,other,0.643,0.844
+Iowa,IA,2011,corn,0.937,0.969
+Iowa,IA,2011,soybean,0.952,0.903
+Iowa,IA,2011,other,0.908,0.913
+Iowa,IA,2012,corn,0.902,0.942
+Iowa,IA,2012,soybean,0.894,0.841
+Iowa,IA,2012,other,0.904,0.833
+Iowa,IA,2013,corn,0.94,0.904
+Iowa,IA,2013,soybean,0.872,0.92
+Iowa,IA,2013,other,0.859,0.88
+Iowa,IA,2014,corn,0.94,0.958
+Iowa,IA,2014,soybean,0.946,0.918
+Iowa,IA,2014,other,0.897,0.904
+Iowa,IA,2015,corn,0.949,0.97
+Iowa,IA,2015,soybean,0.965,0.923
+Iowa,IA,2015,other,0.793,0.92
+Iowa,IA,2016,corn,0.936,0.959
+Iowa,IA,2016,soybean,0.95,0.923
+Iowa,IA,2016,other,0.815,0.757
+Iowa,IA,2017,corn,0.945,0.964
+Iowa,IA,2017,soybean,0.956,0.916
+Iowa,IA,2017,other,0.765,0.839
+Iowa,IA,2018,corn,0.896,0.968
+Iowa,IA,2018,soybean,0.954,0.86
+Iowa,IA,2018,other,0.9,0.874
+Illinois,IL,1999,corn,0.816,0.887
+Illinois,IL,1999,soybean,0.872,0.817
+Illinois,IL,1999,other,0.744,0.612
+Illinois,IL,2000,corn,0.776,0.925
+Illinois,IL,2000,soybean,0.89,0.749
+Illinois,IL,2000,other,0.826,0.65
+Illinois,IL,2001,corn,0.75,0.914
+Illinois,IL,2001,soybean,0.872,0.704
+Illinois,IL,2001,other,0.568,0.384
+Illinois,IL,2002,corn,0.841,0.81
+Illinois,IL,2002,soybean,0.808,0.816
+Illinois,IL,2002,other,0.46,0.652
+Illinois,IL,2003,corn,0.802,0.899
+Illinois,IL,2003,soybean,0.876,0.76
+Illinois,IL,2003,other,0.756,0.764
+Illinois,IL,2004,corn,0.804,0.929
+Illinois,IL,2004,soybean,0.906,0.706
+Illinois,IL,2004,other,0.436,0.686
+Illinois,IL,2005,corn,0.766,0.914
+Illinois,IL,2005,soybean,0.863,0.692
+Illinois,IL,2005,other,0.644,0.517
+Illinois,IL,2006,corn,0.83,0.931
+Illinois,IL,2006,soybean,0.861,0.84
+Illinois,IL,2006,other,0.928,0.459
+Illinois,IL,2007,corn,0.93,0.961
+Illinois,IL,2007,soybean,0.903,0.889
+Illinois,IL,2007,other,0.974,0.655
+Illinois,IL,2008,corn,0.931,0.933
+Illinois,IL,2008,soybean,0.893,0.893
+Illinois,IL,2008,other,0.701,0.681
+Illinois,IL,2009,corn,0.948,0.938
+Illinois,IL,2009,soybean,0.917,0.939
+Illinois,IL,2009,other,0.962,0.862
+Illinois,IL,2010,corn,0.929,0.972
+Illinois,IL,2010,soybean,0.952,0.88
+Illinois,IL,2010,other,0.654,0.708
+Illinois,IL,2011,corn,0.903,0.933
+Illinois,IL,2011,soybean,0.89,0.881
+Illinois,IL,2011,other,0.883,0.744
+Illinois,IL,2012,corn,0.916,0.939
+Illinois,IL,2012,soybean,0.896,0.867
+Illinois,IL,2012,other,0.864,0.792
+Illinois,IL,2013,corn,0.942,0.902
+Illinois,IL,2013,soybean,0.873,0.928
+Illinois,IL,2013,other,0.947,0.888
+Illinois,IL,2014,corn,0.952,0.969
+Illinois,IL,2014,soybean,0.954,0.938
+Illinois,IL,2014,other,0.826,0.745
+Illinois,IL,2015,corn,0.935,0.964
+Illinois,IL,2015,soybean,0.955,0.917
+Illinois,IL,2015,other,0.847,0.862
+Illinois,IL,2016,corn,0.935,0.965
+Illinois,IL,2016,soybean,0.956,0.926
+Illinois,IL,2016,other,0.841,0.755
+Illinois,IL,2017,corn,0.923,0.94
+Illinois,IL,2017,soybean,0.923,0.917
+Illinois,IL,2017,other,0.905,0.704
+Illinois,IL,2018,corn,0.91,0.967
+Illinois,IL,2018,soybean,0.953,0.913
+Illinois,IL,2018,other,0.956,0.683
+Indiana,IN,2000,corn,0.801,0.908
+Indiana,IN,2000,soybean,0.88,0.762
+Indiana,IN,2000,other,0.717,0.665
+Indiana,IN,2001,corn,0.826,0.922
+Indiana,IN,2001,soybean,0.882,0.825
+Indiana,IN,2001,other,0.804,0.562
+Indiana,IN,2002,corn,0.857,0.665
+Indiana,IN,2002,soybean,0.745,0.862
+Indiana,IN,2002,other,0.465,0.671
+Indiana,IN,2003,corn,0.799,0.907
+Indiana,IN,2003,soybean,0.878,0.771
+Indiana,IN,2003,other,0.734,0.681
+Indiana,IN,2004,corn,0.703,0.811
+Indiana,IN,2004,soybean,0.73,0.595
+Indiana,IN,2004,other,0.521,0.495
+Indiana,IN,2005,corn,0.684,0.914
+Indiana,IN,2005,soybean,0.891,0.685
+Indiana,IN,2005,other,0.789,0.607
+Indiana,IN,2006,corn,0.836,0.877
+Indiana,IN,2006,soybean,0.824,0.84
+Indiana,IN,2006,other,0.824,0.586
+Indiana,IN,2007,corn,0.857,0.941
+Indiana,IN,2007,soybean,0.886,0.79
+Indiana,IN,2007,other,0.917,0.627
+Indiana,IN,2008,corn,0.912,0.927
+Indiana,IN,2008,soybean,0.927,0.929
+Indiana,IN,2008,other,0.843,0.729
+Indiana,IN,2009,corn,0.916,0.886
+Indiana,IN,2009,soybean,0.876,0.919
+Indiana,IN,2009,other,0.912,0.775
+Indiana,IN,2010,corn,0.873,0.936
+Indiana,IN,2010,soybean,0.925,0.852
+Indiana,IN,2010,other,0.679,0.633
+Indiana,IN,2011,corn,0.893,0.861
+Indiana,IN,2011,soybean,0.858,0.895
+Indiana,IN,2011,other,0.829,0.791
+Indiana,IN,2012,corn,0.819,0.911
+Indiana,IN,2012,soybean,0.862,0.744
+Indiana,IN,2012,other,0.865,0.78
+Indiana,IN,2013,corn,0.936,0.898
+Indiana,IN,2013,soybean,0.87,0.919
+Indiana,IN,2013,other,0.86,0.86
+Indiana,IN,2014,corn,0.862,0.925
+Indiana,IN,2014,soybean,0.914,0.862
+Indiana,IN,2014,other,0.857,0.735
+Indiana,IN,2015,corn,0.85,0.917
+Indiana,IN,2015,soybean,0.899,0.84
+Indiana,IN,2015,other,0.81,0.694
+Indiana,IN,2016,corn,0.91,0.92
+Indiana,IN,2016,soybean,0.923,0.925
+Indiana,IN,2016,other,0.806,0.676
+Indiana,IN,2017,corn,0.874,0.885
+Indiana,IN,2017,soybean,0.889,0.887
+Indiana,IN,2017,other,0.738,0.66
+Indiana,IN,2018,corn,0.853,0.974
+Indiana,IN,2018,soybean,0.964,0.859
+Indiana,IN,2018,other,0.903,0.778
+Kansas,KS,2006,corn,0.732,0.9
+Kansas,KS,2006,soybean,0.89,0.703
+Kansas,KS,2006,other,0.953,0.943
+Kansas,KS,2007,corn,0.918,0.843
+Kansas,KS,2007,soybean,0.637,0.821
+Kansas,KS,2007,other,0.95,0.934
+Kansas,KS,2008,corn,0.964,0.867
+Kansas,KS,2008,soybean,0.836,0.836
+Kansas,KS,2008,other,0.946,0.973
+Kansas,KS,2009,corn,0.842,0.921
+Kansas,KS,2009,soybean,0.855,0.814
+Kansas,KS,2009,other,0.961,0.949
+Kansas,KS,2010,corn,0.891,0.888
+Kansas,KS,2010,soybean,0.849,0.797
+Kansas,KS,2010,other,0.927,0.947
+Kansas,KS,2011,corn,0.912,0.871
+Kansas,KS,2011,soybean,0.91,0.777
+Kansas,KS,2011,other,0.913,0.969
+Kansas,KS,2012,corn,0.851,0.856
+Kansas,KS,2012,soybean,0.867,0.721
+Kansas,KS,2012,other,0.913,0.949
+Kansas,KS,2013,corn,0.909,0.856
+Kansas,KS,2013,soybean,0.89,0.826
+Kansas,KS,2013,other,0.95,0.976
+Kansas,KS,2014,corn,0.895,0.911
+Kansas,KS,2014,soybean,0.909,0.821
+Kansas,KS,2014,other,0.954,0.968
+Kansas,KS,2015,corn,0.884,0.904
+Kansas,KS,2015,soybean,0.812,0.867
+Kansas,KS,2015,other,0.959,0.938
+Kansas,KS,2016,corn,0.913,0.928
+Kansas,KS,2016,soybean,0.917,0.882
+Kansas,KS,2016,other,0.955,0.959
+Kansas,KS,2017,corn,0.916,0.842
+Kansas,KS,2017,soybean,0.918,0.786
+Kansas,KS,2017,other,0.875,0.964
+Kansas,KS,2018,corn,0.931,0.899
+Kansas,KS,2018,soybean,0.869,0.799
+Kansas,KS,2018,other,0.911,0.951
+Kentucky,KY,2008,corn,0.839,0.83
+Kentucky,KY,2008,soybean,0.755,0.645
+Kentucky,KY,2008,other,0.876,0.931
+Kentucky,KY,2009,corn,0.896,0.841
+Kentucky,KY,2009,soybean,0.825,0.909
+Kentucky,KY,2009,other,0.938,0.913
+Kentucky,KY,2010,corn,0.795,0.886
+Kentucky,KY,2010,soybean,0.893,0.704
+Kentucky,KY,2010,other,0.938,0.978
+Kentucky,KY,2011,corn,0.953,0.863
+Kentucky,KY,2011,soybean,0.857,0.857
+Kentucky,KY,2011,other,0.767,0.971
+Kentucky,KY,2012,corn,0.908,0.879
+Kentucky,KY,2012,soybean,0.797,0.758
+Kentucky,KY,2012,other,0.75,0.909
+Kentucky,KY,2013,corn,0.947,0.84
+Kentucky,KY,2013,soybean,0.74,0.844
+Kentucky,KY,2013,other,0.891,0.918
+Kentucky,KY,2014,corn,0.932,0.854
+Kentucky,KY,2014,soybean,0.864,0.905
+Kentucky,KY,2014,other,0.895,0.939
+Kentucky,KY,2015,corn,0.947,0.9
+Kentucky,KY,2015,soybean,0.866,0.832
+Kentucky,KY,2015,other,0.899,0.95
+Kentucky,KY,2016,corn,0.899,0.875
+Kentucky,KY,2016,soybean,0.857,0.841
+Kentucky,KY,2016,other,0.911,0.935
+Kentucky,KY,2017,corn,0.938,0.809
+Kentucky,KY,2017,soybean,0.862,0.891
+Kentucky,KY,2017,other,0.908,0.961
+Kentucky,KY,2018,corn,0.825,0.93
+Kentucky,KY,2018,soybean,0.933,0.845
+Kentucky,KY,2018,other,0.919,0.934
+Michigan,MI,2007,corn,0.817,0.778
+Michigan,MI,2007,soybean,0.8,0.592
+Michigan,MI,2007,other,0.659,0.901
+Michigan,MI,2008,corn,0.886,0.864
+Michigan,MI,2008,soybean,0.902,0.76
+Michigan,MI,2008,other,0.853,0.974
+Michigan,MI,2009,corn,0.841,0.733
+Michigan,MI,2009,soybean,0.783,0.754
+Michigan,MI,2009,other,0.816,0.949
+Michigan,MI,2010,corn,0.784,0.762
+Michigan,MI,2010,soybean,0.887,0.683
+Michigan,MI,2010,other,0.801,0.951
+Michigan,MI,2011,corn,0.864,0.83
+Michigan,MI,2011,soybean,0.796,0.779
+Michigan,MI,2011,other,0.879,0.927
+Michigan,MI,2012,corn,0.76,0.817
+Michigan,MI,2012,soybean,0.754,0.682
+Michigan,MI,2012,other,0.88,0.88
+Michigan,MI,2013,corn,0.862,0.822
+Michigan,MI,2013,soybean,0.816,0.774
+Michigan,MI,2013,other,0.851,0.926
+Michigan,MI,2014,corn,0.826,0.86
+Michigan,MI,2014,soybean,0.817,0.761
+Michigan,MI,2014,other,0.882,0.899
+Michigan,MI,2015,corn,0.798,0.836
+Michigan,MI,2015,soybean,0.876,0.69
+Michigan,MI,2015,other,0.771,0.887
+Michigan,MI,2016,corn,0.771,0.849
+Michigan,MI,2016,soybean,0.896,0.746
+Michigan,MI,2016,other,0.847,0.898
+Michigan,MI,2017,corn,0.865,0.812
+Michigan,MI,2017,soybean,0.838,0.777
+Michigan,MI,2017,other,0.822,0.926
+Michigan,MI,2018,corn,0.725,0.787
+Michigan,MI,2018,soybean,0.764,0.674
+Michigan,MI,2018,other,0.858,0.877
+Minnesota,MN,2006,corn,0.852,0.855
+Minnesota,MN,2006,soybean,0.903,0.792
+Minnesota,MN,2006,other,0.722,0.923
+Minnesota,MN,2007,corn,0.886,0.89
+Minnesota,MN,2007,soybean,0.901,0.833
+Minnesota,MN,2007,other,0.767,0.876
+Minnesota,MN,2008,corn,0.958,0.919
+Minnesota,MN,2008,soybean,0.877,0.952
+Minnesota,MN,2008,other,0.961,0.898
+Minnesota,MN,2009,corn,0.917,0.932
+Minnesota,MN,2009,soybean,0.885,0.904
+Minnesota,MN,2009,other,0.937,0.869
+Minnesota,MN,2010,corn,0.916,0.943
+Minnesota,MN,2010,soybean,0.935,0.901
+Minnesota,MN,2010,other,0.897,0.911
+Minnesota,MN,2011,corn,0.944,0.9
+Minnesota,MN,2011,soybean,0.862,0.927
+Minnesota,MN,2011,other,0.936,0.898
+Minnesota,MN,2012,corn,0.883,0.908
+Minnesota,MN,2012,soybean,0.866,0.856
+Minnesota,MN,2012,other,0.894,0.857
+Minnesota,MN,2013,corn,0.935,0.88
+Minnesota,MN,2013,soybean,0.849,0.912
+Minnesota,MN,2013,other,0.876,0.869
+Minnesota,MN,2014,corn,0.942,0.873
+Minnesota,MN,2014,soybean,0.851,0.908
+Minnesota,MN,2014,other,0.846,0.856
+Minnesota,MN,2015,corn,0.947,0.915
+Minnesota,MN,2015,soybean,0.925,0.915
+Minnesota,MN,2015,other,0.854,0.927
+Minnesota,MN,2016,corn,0.896,0.956
+Minnesota,MN,2016,soybean,0.925,0.884
+Minnesota,MN,2016,other,0.888,0.851
+Minnesota,MN,2017,corn,0.934,0.916
+Minnesota,MN,2017,soybean,0.903,0.906
+Minnesota,MN,2017,other,0.88,0.911
+Minnesota,MN,2018,corn,0.842,0.919
+Minnesota,MN,2018,soybean,0.894,0.784
+Minnesota,MN,2018,other,0.84,0.879
+Missouri,MO,2001,corn,0.423,0.963
+Missouri,MO,2001,soybean,0.515,0.681
+Missouri,MO,2001,other,0.227,0.09
+Missouri,MO,2002,corn,0.623,0.659
+Missouri,MO,2002,soybean,0.598,0.59
+Missouri,MO,2002,other,0.423,0.42
+Missouri,MO,2003,corn,0.728,0.925
+Missouri,MO,2003,soybean,0.424,0.66
+Missouri,MO,2003,other,0.222,0.081
+Missouri,MO,2004,corn,0.634,0.849
+Missouri,MO,2004,soybean,0.611,0.525
+Missouri,MO,2004,other,0.161,0.149
+Missouri,MO,2005,corn,0.676,0.676
+Missouri,MO,2005,soybean,0.501,0.529
+Missouri,MO,2005,other,0.353,0.326
+Missouri,MO,2006,corn,0.828,0.927
+Missouri,MO,2006,soybean,0.844,0.867
+Missouri,MO,2006,other,0.722,0.484
+Missouri,MO,2007,corn,0.896,0.809
+Missouri,MO,2007,soybean,0.779,0.926
+Missouri,MO,2007,other,0.839,0.515
+Missouri,MO,2008,corn,0.863,0.833
+Missouri,MO,2008,soybean,0.851,0.901
+Missouri,MO,2008,other,0.904,0.854
+Missouri,MO,2009,corn,0.837,0.791
+Missouri,MO,2009,soybean,0.841,0.88
+Missouri,MO,2009,other,0.87,0.852
+Missouri,MO,2010,corn,0.93,0.895
+Missouri,MO,2010,soybean,0.907,0.945
+Missouri,MO,2010,other,0.762,0.681
+Missouri,MO,2011,corn,0.84,0.918
+Missouri,MO,2011,soybean,0.912,0.888
+Missouri,MO,2011,other,0.862,0.784
+Missouri,MO,2012,corn,0.909,0.891
+Missouri,MO,2012,soybean,0.86,0.919
+Missouri,MO,2012,other,0.935,0.833
+Missouri,MO,2013,corn,0.916,0.785
+Missouri,MO,2013,soybean,0.805,0.915
+Missouri,MO,2013,other,0.888,0.839
+Missouri,MO,2014,corn,0.921,0.932
+Missouri,MO,2014,soybean,0.915,0.936
+Missouri,MO,2014,other,0.939,0.874
+Missouri,MO,2015,corn,0.927,0.927
+Missouri,MO,2015,soybean,0.903,0.939
+Missouri,MO,2015,other,0.939,0.871
+Missouri,MO,2016,corn,0.95,0.921
+Missouri,MO,2016,soybean,0.911,0.939
+Missouri,MO,2016,other,0.909,0.891
+Missouri,MO,2017,corn,0.938,0.908
+Missouri,MO,2017,soybean,0.879,0.907
+Missouri,MO,2017,other,0.835,0.813
+Missouri,MO,2018,corn,0.915,0.908
+Missouri,MO,2018,soybean,0.913,0.921
+Missouri,MO,2018,other,0.89,0.882
+North Dakota,ND,1999,corn,0.419,0.476
+North Dakota,ND,1999,soybean,0.395,0.77
+North Dakota,ND,1999,other,0.959,0.88
+North Dakota,ND,2000,corn,0.43,0.466
+North Dakota,ND,2000,soybean,0.71,0.677
+North Dakota,ND,2000,other,0.953,0.955
+North Dakota,ND,2001,corn,0.512,0.488
+North Dakota,ND,2001,soybean,0.648,0.807
+North Dakota,ND,2001,other,0.97,0.94
+North Dakota,ND,2002,corn,0.484,0.577
+North Dakota,ND,2002,soybean,0.545,0.718
+North Dakota,ND,2002,other,0.956,0.905
+North Dakota,ND,2003,corn,0.575,0.559
+North Dakota,ND,2003,soybean,0.75,0.43
+North Dakota,ND,2003,other,0.81,0.941
+North Dakota,ND,2004,corn,0.621,0.431
+North Dakota,ND,2004,soybean,0.762,0.554
+North Dakota,ND,2004,other,0.877,0.961
+North Dakota,ND,2005,corn,0.612,0.508
+North Dakota,ND,2005,soybean,0.706,0.707
+North Dakota,ND,2005,other,0.925,0.94
+North Dakota,ND,2006,corn,0.759,0.619
+North Dakota,ND,2006,soybean,0.876,0.679
+North Dakota,ND,2006,other,0.906,0.978
+North Dakota,ND,2007,corn,0.898,0.618
+North Dakota,ND,2007,soybean,0.715,0.875
+North Dakota,ND,2007,other,0.947,0.954
+North Dakota,ND,2008,corn,0.904,0.821
+North Dakota,ND,2008,soybean,0.892,0.892
+North Dakota,ND,2008,other,0.968,0.982
+North Dakota,ND,2009,corn,0.931,0.824
+North Dakota,ND,2009,soybean,0.928,0.842
+North Dakota,ND,2009,other,0.946,0.988
+North Dakota,ND,2010,corn,0.889,0.823
+North Dakota,ND,2010,soybean,0.884,0.892
+North Dakota,ND,2010,other,0.96,0.969
+North Dakota,ND,2011,corn,0.91,0.772
+North Dakota,ND,2011,soybean,0.859,0.859
+North Dakota,ND,2011,other,0.946,0.972
+North Dakota,ND,2012,corn,0.819,0.693
+North Dakota,ND,2012,soybean,0.783,0.819
+North Dakota,ND,2012,other,0.942,0.966
+North Dakota,ND,2013,corn,0.907,0.75
+North Dakota,ND,2013,soybean,0.82,0.889
+North Dakota,ND,2013,other,0.935,0.962
+North Dakota,ND,2014,corn,0.917,0.814
+North Dakota,ND,2014,soybean,0.873,0.896
+North Dakota,ND,2014,other,0.946,0.956
+North Dakota,ND,2015,corn,0.924,0.756
+North Dakota,ND,2015,soybean,0.9,0.904
+North Dakota,ND,2015,other,0.954,0.983
+North Dakota,ND,2016,corn,0.86,0.842
+North Dakota,ND,2016,soybean,0.853,0.858
+North Dakota,ND,2016,other,0.951,0.953
+North Dakota,ND,2017,corn,0.937,0.809
+North Dakota,ND,2017,soybean,0.906,0.911
+North Dakota,ND,2017,other,0.942,0.972
+North Dakota,ND,2018,corn,0.848,0.718
+North Dakota,ND,2018,soybean,0.889,0.883
+North Dakota,ND,2018,other,0.921,0.958
+Nebraska,NE,2001,corn,0.7,0.875
+Nebraska,NE,2001,soybean,0.851,0.671
+Nebraska,NE,2001,other,0.56,0.481
+Nebraska,NE,2002,corn,0.685,0.871
+Nebraska,NE,2002,soybean,0.922,0.435
+Nebraska,NE,2002,other,0.753,0.828
+Nebraska,NE,2003,corn,0.72,0.894
+Nebraska,NE,2003,soybean,0.866,0.543
+Nebraska,NE,2003,other,0.852,0.833
+Nebraska,NE,2004,corn,0.804,0.89
+Nebraska,NE,2004,soybean,0.897,0.719
+Nebraska,NE,2004,other,0.747,0.794
+Nebraska,NE,2005,corn,0.818,0.849
+Nebraska,NE,2005,soybean,0.846,0.731
+Nebraska,NE,2005,other,0.699,0.775
+Nebraska,NE,2006,corn,0.588,0.591
+Nebraska,NE,2006,soybean,0.452,0.278
+Nebraska,NE,2006,other,0.427,0.68
+Nebraska,NE,2007,corn,0.953,0.953
+Nebraska,NE,2007,soybean,0.879,0.899
+Nebraska,NE,2007,other,0.926,0.894
+Nebraska,NE,2008,corn,0.92,0.952
+Nebraska,NE,2008,soybean,0.934,0.865
+Nebraska,NE,2008,other,0.916,0.939
+Nebraska,NE,2009,corn,0.924,0.964
+Nebraska,NE,2009,soybean,0.938,0.886
+Nebraska,NE,2009,other,0.919,0.876
+Nebraska,NE,2010,corn,0.929,0.958
+Nebraska,NE,2010,soybean,0.949,0.891
+Nebraska,NE,2010,other,0.886,0.899
+Nebraska,NE,2011,corn,0.928,0.953
+Nebraska,NE,2011,soybean,0.931,0.904
+Nebraska,NE,2011,other,0.944,0.903
+Nebraska,NE,2012,corn,0.868,0.941
+Nebraska,NE,2012,soybean,0.871,0.773
+Nebraska,NE,2012,other,0.936,0.833
+Nebraska,NE,2013,corn,0.936,0.961
+Nebraska,NE,2013,soybean,0.946,0.913
+Nebraska,NE,2013,other,0.898,0.862
+Nebraska,NE,2014,corn,0.894,0.965
+Nebraska,NE,2014,soybean,0.933,0.846
+Nebraska,NE,2014,other,0.934,0.867
+Nebraska,NE,2015,corn,0.934,0.945
+Nebraska,NE,2015,soybean,0.921,0.908
+Nebraska,NE,2015,other,0.899,0.887
+Nebraska,NE,2016,corn,0.947,0.963
+Nebraska,NE,2016,soybean,0.942,0.914
+Nebraska,NE,2016,other,0.922,0.909
+Nebraska,NE,2017,corn,0.919,0.962
+Nebraska,NE,2017,soybean,0.968,0.892
+Nebraska,NE,2017,other,0.888,0.885
+Nebraska,NE,2018,corn,0.91,0.971
+Nebraska,NE,2018,soybean,0.943,0.885
+Nebraska,NE,2018,other,0.917,0.818
+Ohio,OH,2006,corn,0.679,0.869
+Ohio,OH,2006,soybean,0.895,0.736
+Ohio,OH,2006,other,0.878,0.901
+Ohio,OH,2007,corn,0.737,0.853
+Ohio,OH,2007,soybean,0.834,0.712
+Ohio,OH,2007,other,0.835,0.848
+Ohio,OH,2008,corn,0.903,0.875
+Ohio,OH,2008,soybean,0.901,0.909
+Ohio,OH,2008,other,0.908,0.948
+Ohio,OH,2009,corn,0.858,0.778
+Ohio,OH,2009,soybean,0.829,0.926
+Ohio,OH,2009,other,0.972,0.805
+Ohio,OH,2010,corn,0.858,0.873
+Ohio,OH,2010,soybean,0.905,0.877
+Ohio,OH,2010,other,0.875,0.946
+Ohio,OH,2011,corn,0.89,0.701
+Ohio,OH,2011,soybean,0.803,0.938
+Ohio,OH,2011,other,0.944,0.913
+Ohio,OH,2012,corn,0.801,0.806
+Ohio,OH,2012,soybean,0.836,0.831
+Ohio,OH,2012,other,0.847,0.847
+Ohio,OH,2013,corn,0.881,0.878
+Ohio,OH,2013,soybean,0.902,0.92
+Ohio,OH,2013,other,0.944,0.872
+Ohio,OH,2014,corn,0.865,0.908
+Ohio,OH,2014,soybean,0.914,0.909
+Ohio,OH,2014,other,0.971,0.829
+Ohio,OH,2015,corn,0.876,0.843
+Ohio,OH,2015,soybean,0.891,0.904
+Ohio,OH,2015,other,0.828,0.872
+Ohio,OH,2016,corn,0.903,0.848
+Ohio,OH,2016,soybean,0.889,0.922
+Ohio,OH,2016,other,0.88,0.901
+Ohio,OH,2017,corn,0.865,0.834
+Ohio,OH,2017,soybean,0.894,0.899
+Ohio,OH,2017,other,0.758,0.821
+Ohio,OH,2018,corn,0.83,0.867
+Ohio,OH,2018,soybean,0.906,0.876
+Ohio,OH,2018,other,0.87,0.889
+South Dakota,SD,2006,corn,0.707,0.773
+South Dakota,SD,2006,soybean,0.934,0.482
+South Dakota,SD,2006,other,0.714,0.974
+South Dakota,SD,2007,corn,0.918,0.788
+South Dakota,SD,2007,soybean,0.8,0.828
+South Dakota,SD,2007,other,0.84,0.961
+South Dakota,SD,2008,corn,0.924,0.879
+South Dakota,SD,2008,soybean,0.915,0.909
+South Dakota,SD,2008,other,0.945,0.98
+South Dakota,SD,2009,corn,0.922,0.933
+South Dakota,SD,2009,soybean,0.939,0.915
+South Dakota,SD,2009,other,0.962,0.97
+South Dakota,SD,2010,corn,0.879,0.893
+South Dakota,SD,2010,soybean,0.924,0.859
+South Dakota,SD,2010,other,0.934,0.96
+South Dakota,SD,2011,corn,0.884,0.905
+South Dakota,SD,2011,soybean,0.913,0.837
+South Dakota,SD,2011,other,0.941,0.967
+South Dakota,SD,2012,corn,0.784,0.839
+South Dakota,SD,2012,soybean,0.856,0.741
+South Dakota,SD,2012,other,0.913,0.94
+South Dakota,SD,2013,corn,0.881,0.887
+South Dakota,SD,2013,soybean,0.89,0.884
+South Dakota,SD,2013,other,0.929,0.928
+South Dakota,SD,2014,corn,0.921,0.915
+South Dakota,SD,2014,soybean,0.922,0.92
+South Dakota,SD,2014,other,0.947,0.952
+South Dakota,SD,2015,corn,0.885,0.936
+South Dakota,SD,2015,soybean,0.943,0.912
+South Dakota,SD,2015,other,0.952,0.926
+South Dakota,SD,2016,corn,0.903,0.922
+South Dakota,SD,2016,soybean,0.951,0.89
+South Dakota,SD,2016,other,0.916,0.948
+South Dakota,SD,2017,corn,0.91,0.859
+South Dakota,SD,2017,soybean,0.926,0.877
+South Dakota,SD,2017,other,0.873,0.963
+South Dakota,SD,2018,corn,0.873,0.902
+South Dakota,SD,2018,soybean,0.914,0.891
+South Dakota,SD,2018,other,0.923,0.92
+Wisconsin,WI,2003,corn,0.657,0.832
+Wisconsin,WI,2003,soybean,0.617,0.274
+Wisconsin,WI,2003,other,0.696,0.66
+Wisconsin,WI,2004,corn,0.765,0.715
+Wisconsin,WI,2004,soybean,0.694,0.484
+Wisconsin,WI,2004,other,0.604,0.843
+Wisconsin,WI,2005,corn,0.702,0.761
+Wisconsin,WI,2005,soybean,0.699,0.397
+Wisconsin,WI,2005,other,0.633,0.737
+Wisconsin,WI,2006,corn,0.837,0.802
+Wisconsin,WI,2006,soybean,0.804,0.649
+Wisconsin,WI,2006,other,0.73,0.901
+Wisconsin,WI,2007,corn,0.804,0.846
+Wisconsin,WI,2007,soybean,0.776,0.437
+Wisconsin,WI,2007,other,0.787,0.905
+Wisconsin,WI,2008,corn,0.82,0.865
+Wisconsin,WI,2008,soybean,0.837,0.649
+Wisconsin,WI,2008,other,0.87,0.907
+Wisconsin,WI,2009,corn,0.787,0.873
+Wisconsin,WI,2009,soybean,0.756,0.504
+Wisconsin,WI,2009,other,0.891,0.912
+Wisconsin,WI,2010,corn,0.81,0.934
+Wisconsin,WI,2010,soybean,0.938,0.591
+Wisconsin,WI,2010,other,0.884,0.904
+Wisconsin,WI,2011,corn,0.884,0.923
+Wisconsin,WI,2011,soybean,0.909,0.763
+Wisconsin,WI,2011,other,0.881,0.914
+Wisconsin,WI,2012,corn,0.782,0.911
+Wisconsin,WI,2012,soybean,0.843,0.492
+Wisconsin,WI,2012,other,0.881,0.847
+Wisconsin,WI,2013,corn,0.838,0.825
+Wisconsin,WI,2013,soybean,0.788,0.669
+Wisconsin,WI,2013,other,0.8,0.9
+Wisconsin,WI,2014,corn,0.824,0.891
+Wisconsin,WI,2014,soybean,0.876,0.625
+Wisconsin,WI,2014,other,0.871,0.919
+Wisconsin,WI,2015,corn,0.856,0.887
+Wisconsin,WI,2015,soybean,0.898,0.683
+Wisconsin,WI,2015,other,0.851,0.95
+Wisconsin,WI,2016,corn,0.855,0.899
+Wisconsin,WI,2016,soybean,0.899,0.685
+Wisconsin,WI,2016,other,0.871,0.927
+Wisconsin,WI,2017,corn,0.82,0.875
+Wisconsin,WI,2017,soybean,0.911,0.661
+Wisconsin,WI,2017,other,0.795,0.894
+Wisconsin,WI,2018,corn,0.847,0.893
+Wisconsin,WI,2018,soybean,0.882,0.723
+Wisconsin,WI,2018,other,0.819,0.859
