@@ -2,11 +2,13 @@
 
 This repo contains code that walks through key steps to create and validate the Corn-Soy Data Layer (CSDL), a map that classifies corn and soybean in 13 states in the US Midwest from 1999-2018 at 30m resolution. Although the USDA's Cropland Data Layer (CDL) offers crop type maps across the conterminous US from 2008 onward, such maps are missing in many Midwestern states or are uneven in quality before 2008. To fill these data gaps, we used the now-public Landsat archive and cloud computing services to map corn and soybean, the primary crops in the Midwest, back to 1999.
 
+<p align="center"><img src="https://github.com/LobellLab/csdl/blob/master/results/webster_city_legend.png" width="600"></p>
+
 ## Dataset
 
 Our dataset can be accessed through one of two ways:
 - Google Earth Engine asset [here](https://code.earthengine.google.com/?asset=projects/lobell-lab/us_croptype_hindcast/CSDL)
-- Zenodo repo housing GeoTIFFs [here](https://zenodo.org/record/3742743#.XoxGc9NKhTY)
+- Zenodo repo housing GeoTIFFs [here](https://doi.org/10.5281/zenodo.3942623)
 
 Map legend:
 - 0 = outside study area
@@ -14,13 +16,14 @@ Map legend:
 - 5 = soy
 - 9 = other crop
 - 255 = non-crop (masked by NLCD)
+
 Values were chosen to be consistent with CDL values when possible.
 
-When using the dataset, please cite: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3742743.svg)](https://doi.org/10.5281/zenodo.3742743)
+When using the dataset, please cite: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3942623.svg)](https://doi.org/10.5281/zenodo.3942623)
 
 ## Usage Notes
 
-We recommend that users consider metrics such as (1) user's and producer's accuracy with CDL and (2) R2 with NASS statistics across space and time to determine in which states/counties and years CSDL is of high quality. This can be done with the CSV file of user's and producer's accuracies and annual county-level statistics we have included in this repo.
+We recommend that users consider metrics such as (1) [user's and producer's accuracy with CDL](https://github.com/LobellLab/csdl/blob/master/results/CSDLvsCDL_users_producers_accuracies.csv) and (2) [R2 with NASS statistics](https://github.com/LobellLab/csdl/blob/master/validate_map/1_NASSvsCSDLvsCDL.ipynb) across space and time to determine in which states/counties and years CSDL is of high quality. This can be done with the CSV file of user's and producer's accuracies and annual county-level statistics we have included in this repo.
 
 ## Code dependencies
 
